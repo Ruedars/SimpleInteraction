@@ -21,7 +21,7 @@ function Simple()
     hln.ButtonDownFcn = @startdrag;
     
     % -----------------------------------------------
-    % events
+    % event handling
     function startdrag(src,event)
         hf1.WindowButtonMotionFcn = @move;     
     end
