@@ -13,8 +13,8 @@ function Simple()
     hpl = plot(xv,yv,'LineWidth',2); hold on;
     hln = plot([pi pi],[-1.2,+1.2],'LineWidth',2);
     hpt = plot(pi,0,'o','MarkerSize',7,'LineWidth',2);
-    xlabel('x');
-    ylabel('sin(x)');
+    xlabel('$x$','interpreter','latex');
+    ylabel('$\sin(x)$','interpreter','latex');
     axis([0 2*pi -1.2 1.2]);
     title('Click& drag the vertical line');
     
